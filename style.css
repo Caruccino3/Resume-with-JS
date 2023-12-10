@@ -1,0 +1,70 @@
+@keyframes fadeIn {
+     from {
+       opacity: 0;
+     }
+     to {
+       opacity: 1;
+     }
+   }
+
+.animated {
+     animation-name: fadeIn;
+     animation-duration: 2s;
+   }
+
+.nightMode {
+     background-color: #333;
+   }
+
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5dc;
+}
+
+.resume {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  color: #8b4513;
+}
+
+.header p {
+  margin: 5px 0;
+  color: #a0522d; 
+}
+
+<section>
+  margin-top: 20px;
+</section>
+
+<ul>
+  padding: 0;
+  margin: 0;
+</ul>
+
+<ul li {
+  list-style: none;
+}
+
+
+<section>
+  background-color: #fffaf0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
